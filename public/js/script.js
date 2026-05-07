@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const searchInput = document.getElementById("searchCoverage");
-  const list = document.getElementById("coverageList");
+  const nav = document.querySelector(".navbar-collapse");
 
-  searchInput.addEventListener("keyup", () => {
-    const filter = searchInput.value.toLowerCase();
-    Array.from(list.getElementsByTagName("li")).forEach(li => {
-      li.style.display = li.textContent.toLowerCase().includes(filter) ? "" : "none";
+  document.querySelectorAll(".nav-link, .navbar-brand").forEach((link) => {
+    link.addEventListener("click", () => {
+      if (nav && nav.classList.contains("show")) {
+        bootstrap.Collapse.getOrCreateInstance(nav).hide();
+      }
     });
   });
 });

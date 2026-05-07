@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Emmeril Hotspot</title>
+    <title>Emmeril Hotspot | Internet Cepat & Stabil</title>
     <link rel="icon" href="/img/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -23,16 +23,16 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg site-navbar sticky-top">
+    <nav class="navbar navbar-expand-lg site-navbar fixed-top">
       <div class="container">
-        <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <a class="navbar-brand" href="#home" aria-label="Emmeril Hotspot">
           <span class="brand-mark">
             <img
               src="https://voucher.emmeril-hotspot.online/assets/img/logo.png"
-              alt="Emmeril Hotspot"
+              alt=""
             />
           </span>
-          <span class="brand-text">Emmeril Hotspot</span>
+          <span>Emmeril Hotspot</span>
         </a>
         <button
           class="navbar-toggler"
@@ -49,15 +49,15 @@
           <ul class="navbar-nav ms-auto align-items-lg-center">
             <li class="nav-item"><a class="nav-link" href="#coverage">Coverage</a></li>
             <li class="nav-item"><a class="nav-link" href="#info">Info</a></li>
-            <li class="nav-item ms-lg-2">
+            <li class="nav-item ms-lg-3">
               <a
-                class="btn btn-sm btn-brand"
+                class="btn btn-primary-soft"
                 href="https://voucher.emmeril-hotspot.online"
                 target="_blank"
                 rel="noopener"
               >
-                <i class="bi bi-ticket-perforated"></i>
-                Voucher
+                <i class="bi bi-bag-check"></i>
+                Beli Voucher
               </a>
             </li>
           </ul>
@@ -65,14 +65,12 @@
       </div>
     </nav>
 
-    <header class="hero-section">
+    <header id="home" class="hero-section">
+      <div class="hero-watermark">WiFi</div>
       <div class="container">
         <div class="row align-items-center g-5">
-          <div class="col-lg-7">
-            <span class="eyebrow">
-              <i class="bi bi-wifi"></i>
-              WiFi hotspot untuk rumah, kos, dan usaha
-            </span>
+          <div class="col-lg-6">
+            <p class="eyebrow">WiFi hotspot untuk rumah, kos, dan usaha</p>
             <h1>Internet cepat, stabil, dan mudah diakses di semua titik.</h1>
             <p class="hero-copy">
               Nikmati koneksi yang nyaman untuk kerja, belajar, streaming,
@@ -84,18 +82,18 @@
                 href="https://voucher.emmeril-hotspot.online"
                 target="_blank"
                 rel="noopener"
-                class="btn btn-brand btn-lg"
+                class="btn btn-primary-soft btn-lg"
               >
                 <i class="bi bi-cart-check"></i>
-                Beli Voucher
+                Beli Sekarang
               </a>
-              <a href="#coverage" class="btn btn-ghost btn-lg">
+              <a href="#coverage" class="btn btn-outline-blue btn-lg">
                 <i class="bi bi-geo-alt"></i>
                 Lihat Coverage
               </a>
             </div>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-6">
             <div class="hero-panel">
               <div class="signal-card">
                 <div class="signal-icon">
@@ -133,7 +131,7 @@
       <section id="coverage" class="section-block coverage-section">
         <div class="container">
           <div class="section-heading text-center">
-            <span class="section-kicker">Coverage Area</span>
+            <p class="section-kicker">Coverage Area</p>
             <h2>Jangkauan koneksi Emmeril Hotspot</h2>
             <p>
               Cek area jangkauan WiFi hotspot kami melalui peta berikut agar
@@ -143,25 +141,23 @@
           <div class="map-frame">
             <img
               src="/img/coverage-map.jpeg"
-              class="img-fluid"
               alt="Peta Coverage Area Emmeril Hotspot"
             />
           </div>
         </div>
       </section>
 
-      <section id="info" class="section-block info-section">
+      <section id="info" class="section-block benefit-section">
         <div class="container">
           <div class="section-heading">
-            <span class="section-kicker">Informasi Penting</span>
+            <p class="section-kicker">Informasi Penting</p>
             <h2>Layanan yang siap dipakai tanpa ribet</h2>
           </div>
-          <div class="row g-4 align-items-stretch">
+
+          <div class="row g-4">
             <div class="col-md-4 d-flex">
-              <article class="info-card accent-green">
-                <div class="info-icon">
-                  <i class="bi bi-cart-check"></i>
-                </div>
+              <article class="benefit-card">
+                <div class="benefit-icon"><i class="bi bi-cart-check"></i></div>
                 <h3>Beli Voucher Hotspot</h3>
                 <p>
                   Dapatkan voucher hotspot secara online dengan proses yang
@@ -171,58 +167,36 @@
                   href="https://voucher.emmeril-hotspot.online"
                   target="_blank"
                   rel="noopener"
-                  class="btn btn-card"
                 >
-                  <i class="bi bi-globe2"></i>
                   Beli Sekarang
                 </a>
               </article>
             </div>
-
             <div class="col-md-4 d-flex">
-              <article class="info-card accent-blue">
-                <div class="info-icon">
-                  <i class="bi bi-stars"></i>
-                </div>
+              <article class="benefit-card">
+                <div class="benefit-icon"><i class="bi bi-stars"></i></div>
                 <h3>Fitur Hotspot</h3>
                 <ul class="feature-list">
-                  <li>
-                    <i class="bi bi-speedometer2"></i>
-                    Kecepatan stabil untuk streaming dan gaming
-                  </li>
-                  <li>
-                    <i class="bi bi-shield-lock"></i>
-                    Koneksi aman dan terenkripsi
-                  </li>
-                  <li>
-                    <i class="bi bi-phone"></i>
-                    Akun dapat otomatis terkoneksi di semua titik
-                  </li>
-                  <li>
-                    <i class="bi bi-cash-coin"></i>
-                    Harga hemat mulai dari seribu
-                  </li>
+                  <li><i class="bi bi-speedometer2"></i>Kecepatan stabil untuk streaming dan gaming</li>
+                  <li><i class="bi bi-shield-lock"></i>Koneksi aman dan terenkripsi</li>
+                  <li><i class="bi bi-phone"></i>Akun dapat otomatis terkoneksi di semua titik</li>
+                  <li><i class="bi bi-cash-coin"></i>Harga hemat mulai dari seribu</li>
                 </ul>
               </article>
             </div>
-
             <div class="col-md-4 d-flex">
-              <article class="info-card accent-red">
-                <div class="info-icon">
-                  <i class="bi bi-headset"></i>
-                </div>
+              <article class="benefit-card">
+                <div class="benefit-icon"><i class="bi bi-headset"></i></div>
                 <h3>Customer Service</h3>
-                <p>
+              <p>
                   Ingin pasang WiFi Emmeril Hotspot di rumah, kos, atau usaha?
                   Tim kami siap membantu kebutuhan Anda.
-                </p>
+              </p>
                 <a
                   href="https://wa.me/6287728972090"
                   target="_blank"
                   rel="noopener"
-                  class="btn btn-card btn-whatsapp"
                 >
-                  <i class="bi bi-whatsapp"></i>
                   Chat WhatsApp
                 </a>
               </article>
@@ -237,15 +211,29 @@
         <div class="footer-brand">
           <img
             src="https://voucher.emmeril-hotspot.online/assets/img/logo.png"
-            alt="Emmeril Hotspot"
+            alt=""
           />
-          <strong>Emmeril Hotspot</strong>
+          <div>
+            <strong>Emmeril Hotspot</strong>
+            <span>Internet Cepat & Stabil</span>
+          </div>
         </div>
-        <span>&copy; <%= new Date().getFullYear() %> Emmeril@Hotspot</span>
-        <span>Internet Cepat & Stabil</span>
+        <p>&copy; <%= new Date().getFullYear() %> Emmeril@Hotspot</p>
+        <p>Internet Cepat & Stabil</p>
       </div>
     </footer>
 
+    <a
+      class="floating-whatsapp"
+      href="https://wa.me/6287728972090"
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat WhatsApp Emmeril Hotspot"
+    >
+      <i class="bi bi-whatsapp"></i>
+    </a>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
