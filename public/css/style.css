@@ -52,7 +52,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-navbar.scrolled { min-height: 70px; box-shadow: 0 8px 30px rgba(6,31,48,.08); }
 .navbar-brand, .footer-brand { display: inline-flex; align-items: center; gap: .7rem; padding: 0; }
 .brand-logo { display: grid; width: 49px; height: 49px; place-items: center; overflow: hidden; border: 1px solid var(--slate-200); border-radius: 14px; background: #fff; box-shadow: 0 8px 22px rgba(6,31,48,.08); }
-.brand-logo img { width: 43px; height: 43px; max-width: none; object-fit: contain; transform: scale(1.55); }
+.brand-logo img { width: 43px; height: 43px; max-width: none; object-fit: contain; transform: scale(1.15); }
 .brand-copy { display: grid; line-height: 1; }
 .brand-copy strong { color: var(--navy-900); font-size: 1.08rem; font-weight: 800; letter-spacing: -.03em; }
 .brand-copy small { margin-top: .35rem; color: var(--blue-600); font-size: .58rem; font-weight: 800; letter-spacing: .23em; }
