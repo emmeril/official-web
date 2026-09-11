@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle("menu-open", isOpen);
   });
 
-  document.querySelectorAll('.nav-link, .navbar-brand, .footer-nav a[href^="#"]').forEach((link) => {
+  document.querySelectorAll('.nav-link, .navbar-brand, .navbar-action, .footer-nav a[href^="#"]').forEach((link) => {
     link.addEventListener("click", () => {
       closeMenu();
     });
