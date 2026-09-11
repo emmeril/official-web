@@ -252,7 +252,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 991.98px) {
   html { scroll-padding-top: 72px; }
   .site-navbar { min-height: 70px; }
-  .navbar-collapse { position: fixed; top: 104px; right: 0; left: 0; max-height: calc(100vh - 104px); padding: 1rem 1.25rem 1.35rem; overflow-y: auto; border-top: 1px solid var(--slate-200); background: rgba(255,255,255,.98); box-shadow: 0 20px 32px rgba(6,31,48,.1); }
+  .navbar-collapse { position: absolute; top: 100%; right: 0; left: 0; max-height: calc(100dvh - 70px); padding: 1rem 1.25rem 1.35rem; overflow-y: auto; border-top: 1px solid var(--slate-200); background: rgba(255,255,255,.98); box-shadow: 0 20px 32px rgba(6,31,48,.1); }
   .navbar-nav { align-items: stretch !important; }
   .nav-link { padding: .8rem 0 !important; }
   .nav-link::after { right: auto; bottom: .55rem; left: 0; width: 24px; }
